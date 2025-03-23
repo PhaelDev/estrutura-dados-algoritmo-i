@@ -11,7 +11,7 @@ int main (){
         for(j=0;j<5;j++){
            printf("digite o valor: \n");
            scanf("%d", &matriz[i][j]);
-           if ((i==j) || (i+j==5)){
+           if ((i!=j) && (i+j!=4)){
             soma = soma + matriz[i][j];
            }
         }
